@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8003
 
 mybatis:
   # mybatis配置文件所在路径
@@ -35,7 +35,7 @@ eureka:
       #单机设置
       defaultZone: http://eureka7001.com:7001/eureka
   instance:
-    instance-id: microservicecloud-config-provider-dept-8001
+    instance-id: microservicecloud-config-provider-dept-8003
     prefer-ip-address: true
 
 info:
